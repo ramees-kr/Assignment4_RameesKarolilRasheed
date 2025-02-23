@@ -1,0 +1,119 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+}
+
+/* Header styling */
+header {
+    background-color: #c9e7c1;  /* Pale green */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+}
+
+/* Subtitle styling */
+.subtitle {
+    margin: 10px 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+/* Main form container */
+#registration-form {
+    background-color: #fff;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+/* Table layout for the form */
+#registration-form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table cells */
+#registration-form td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+/* Section titles */
+.section-title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Input, textarea, and select styling */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+/* Radio and checkbox styling */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Form buttons container */
+.form-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Submit and Reset buttons styling */
+.form-buttons input[type="submit"],
+.form-buttons input[type="reset"] {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.form-buttons input[type="submit"]:hover,
+.form-buttons input[type="reset"]:hover {
+    background-color: #0a5;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
